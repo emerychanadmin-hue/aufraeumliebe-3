@@ -112,7 +112,18 @@
     </a>
   </div>
   <p class="trust-line">Sicher &amp; werbefrei<span class="trust-extra">, nur hilfreiche Inhalte</span></p>
+
+  <p id="redirect-notice" style="text-align:center; color:#666; font-size:14px; margin-top:16px;">
+    Du wirst in wenigen Sekunden automatisch weitergeleitet.
+    Falls nicht: <a href="<!--{{MAIN_BLOG_URL}}-->">hier klicken</a>.
+  </p>
 </section>
+
+<script>
+  setTimeout(function () {
+    window.location.href = "<!--{{MAIN_BLOG_URL}}-->";
+  }, 4000);
+</script>
 
 <footer class="site-footer">
   <p>© 2026 aufräumliebe | Ordnung mit Herz ♥</p>
